@@ -1,0 +1,33 @@
+{
+  "name": "heswap-dice-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mnemonic": "node -e \"console.log(require('bip39').generateMnemonic())\"",
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --reset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfriend/heswap-dice-dapp.git"
+  },
+  "keywords": [
+    "Heswap",
+    "Dice",
+    "DApp",
+    "Ethereum"
+  ],
+  "author": "bitfriend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitfriend/heswap-dice-dapp/issues"
+  },
+  "homepage": "https://github.com/bitfriend/heswap-dice-dapp#readme",
+  "dependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.8.0",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "truffle": "^5.3.14"
+  }
+}
